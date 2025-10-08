@@ -29,6 +29,7 @@ team_settings:
     enable_software_inventory: true
     FLEET_ENGINEERING_ENROLL_SECRET: ${{ secrets.FLEET_ENGINEERING_ENROLL_SECRET }}
 FLEET_NEW_HIRES_ENROLL_SECRET: ${{ secrets.FLEET_NEW_HIRES_ENROLL_SECRET }}
-policies:
-- path: C:\Users\abder\Downloads\fleet-gitops-main.zip\fleet-gitops-main\lib\windows\scripts
+
 software:
+pacakges:
+- path: ../lib/macos/software/zoom.yml
